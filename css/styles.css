@@ -1,15 +1,5 @@
-/* En este archivo escriban su CSS */
+/* En este archivo van los CSS */
 
-/* Fonts */
-/* Importar aquí la font */
-
-
-
-/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
-*  cuyos valores asigna por defecto el navegador.
-*/
-
-/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -62,23 +52,6 @@ main {
     margin: auto;
 }
 
-/* Recomendaciones! 
-*  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
-*    "estilos generales". Una buena idea sería comenzar por el <body> ;)
-*
-*  - Recuerden que queremos evitar "repetir código", en CSS usando la cualidad de la herencia
-*    podemos setear ciertas propiedades en un elemento padre y dejar que sean heredadas (por ejemplo: font-size)
-*
-*  - Nadie sabe todas las propiedades CSS de memoria, si no saben como hacer algo no lo recuerdan, la respuesta
-*    pueden encontrarla buscando en la web algo como "CSS como hacer ... " o "propiedad css para hacer ..."
-*
-*  - Usen mucho las herramientas para desarrolladores del navegador para ir
-*    probando el CSS que escriben, resolver dudas y problemas.
-*
-*  - Paciencia, resiliencia y creatividad! No se desanimen, las primeras experiencias maquetando con HTML y CSS
-*    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
-*    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
-*/
 
 header{
     display: flex;
@@ -92,7 +65,6 @@ header{
     top: 0;
     left: 0;
     box-shadow: 0 3px 10px -5px rgb(95, 95, 95);
-
 }
 
 ul#menu{
@@ -172,14 +144,12 @@ ul#barraIconos{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 30px;
-        
+    padding: 60px 30px;        
 }
 
 li.icono-item{
    margin: o 50px;
-   width: 20%;
-    
+   width: 20%;   
 }
  
 
